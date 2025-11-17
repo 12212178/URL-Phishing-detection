@@ -1,0 +1,60 @@
+# -----------------
+# 1. Environment Files
+# -----------------
+# Never commit your environment variables or secrets
+.env
+.env.*
+*.env
+
+# -----------------
+# 2. Python Cache & Compiled Files
+# -----------------
+# Compiled Python files
+*.py[cod]
+*$py.class
+
+# Python cache directories
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# -----------------
+# 3. Virtual Environments
+# -----------------
+# Never commit your virtual environment folder
+.venv/
+venv/
+env/
+*.egg-info/
+
+# -----------------
+# 4. Large Model & Data Files
+# -----------------
+# Common data formats
+*.csv
+*.db
+*.sqlite3
+
+# Common model formats
+*.h5
+*.joblib
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# -----------------
+# 5. IDE & OS Files
+# -----------------
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

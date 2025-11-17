@@ -1,0 +1,6 @@
+pip install -r requirements.txt
+pip install optuna
+pip install keras-tuner
+httpx: pip install httpx
+
+33yjIx3hmQFKX67pIfJQb9t4OD8_6h2avPRJcSVBC7qnGmqSL
